@@ -17,11 +17,11 @@ public class Numletras59818 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Pedir un número de 0 a 99 y mostrarlo en letras. 
         Scanner entrada = new Scanner (System.in) ;
         int numero = 0 ;
         
-         System.out.print("Ingresa un numero: ");
+         System.out.print("Ingresa un numero del 0 al 99: ");
             numero = entrada.nextInt();
     
         int decena = (numero / 10)% 10;
